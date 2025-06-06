@@ -1,0 +1,23 @@
+{
+  "name": "playwright_perusteet",
+  "version": "1.0.0",
+  "description": "Tämä on minikurssi Playwright-työkalun opiskelua varten.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teijatestaaja/playwright_perusteet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/teijatestaaja/playwright_perusteet/issues"
+  },
+  "homepage": "https://github.com/teijatestaaja/playwright_perusteet#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.30"
+  }
+}
