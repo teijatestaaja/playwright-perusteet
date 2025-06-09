@@ -2,21 +2,19 @@
 
 Tämä on minikurssi Playwright-työkalun opiskelua varten. 
 
-# Tarvittavat työkalut
-
-Asenna seuraavat työkalut tässä järjestyksessä:
-- [Node](https://nodejs.org/en/download/current) ja sen mukana [npm](https://docs.npmjs.com/try-the-latest-stable-version-of-npm)
-- [Playwright](https://playwright.dev/docs/intro)
-- [Visual Studio Code](https://code.visualstudio.com/) ja sen [Playwright Test for VSCode -plugin](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
-
 # Suositeltu oppimispolku
-1. Asenna työkalut.
-2. Aja komentoriviltä [esimerkkitestit](https://playwright.dev/docs/intro#running-the-example-test), jotka tulivat Playwrightin asennuksen mukana.
-3. Tutustu [peruskonfiguraatioon](https://playwright.dev/docs/test-configuration).
-4. Tutustu Playwright.config -oletusasetustiedoston [use-vaihtoehtoihin](https://playwright.dev/docs/test-use-options).
-5. Tutustu testien [hierarkiaan](https://learn.microsoft.com/en-us/training/modules/build-with-playwright/5-understand-test-specification) ja [Arrange-Act-Assert -malliin](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/).
-6. Tutustu [fixtuureihin](https://playwright.dev/docs/test-fixtures), [lokaattoreihin](https://playwright.dev/docs/locators) ja [assertioihin](https://playwright.dev/docs/test-assertions).
-7. Opettele ajamaan ja debuggaamaan testejä [Visual Studio Coden Playwright-pluginin avulla](https://playwright.dev/docs/getting-started-vscode) selaimessa sekä ilman selainikkunaa.
+- [x] Asenna seuraavat työkalut tässä järjestyksessä:
+  - [Node](https://nodejs.org/en/download/current) ja sen mukana [npm](https://docs.npmjs.com/try-the-latest-stable-version-of-npm)
+  - [Playwright](https://playwright.dev/docs/intro)
+  - [Visual Studio Code](https://code.visualstudio.com/) ja sen [Playwright Test for VSCode -plugin](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
+- [x] Aja komentoriviltä [esimerkkitestit](https://playwright.dev/docs/intro#running-the-example-test), jotka tulivat Playwrightin asennuksen mukana.
+- [x] Katso [videotutoriaali ui-modesta](https://www.youtube.com/watch?v=d0u6XhXknzU&t=367s) ja opettele ajamaan esimerkkitestit [Visual Studio Coden Playwright-pluginin avulla](https://playwright.dev/docs/getting-started-vscode) selaimessa sekä ilman selainikkunaa.
+- [ ] Tutustu [peruskonfiguraatioon](https://playwright.dev/docs/test-configuration).
+- [ ] Tutustu Playwright.config -oletusasetustiedoston [use-vaihtoehtoihin](https://playwright.dev/docs/test-use-options).
+- [ ] Tutustu testien [hierarkiaan](https://learn.microsoft.com/en-us/training/modules/build-with-playwright/5-understand-test-specification) ja [Arrange-Act-Assert -malliin](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/).
+- [ ] Tutustu [fixtuureihin](https://playwright.dev/docs/test-fixtures), [lokaattoreihin](https://playwright.dev/docs/locators) ja [assertioihin](https://playwright.dev/docs/test-assertions).
+- [ ] Tee harjoituksen vuoksi pari testiä [Todo App](todomvc.com/examples/react/dist/) -sovellukselle.
+
 
 # Hyödyllisiä komentoja
 
@@ -33,6 +31,7 @@ Asenna seuraavat työkalut tässä järjestyksessä:
 | npx playwright test --debug | debuggaa testit Playwright Inspectorissa |
 | npx playwright test minun_testit.spec.ts --debug | debuggaa yksittäinen testikokoelma |
 | npx playwright test minun_testit.spec.ts:10 --debug | debuggaa yksittäinen testi joka alkaa riviltä 10 |
+| npx playwright --version | tarkastaa onko Playwright asennettu ja jos on, näyttää sen version |
 
 # Hyödylliset linkit
 - [Playwrightin virallinen dokumentaatio sekä asennusohjeet](https://playwright.dev/docs/intro), joita noudattamalla saat asennettua Playwrightin koneellesi.

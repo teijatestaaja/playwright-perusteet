@@ -1,5 +1,5 @@
 {
-  "name": "playwright_perusteet",
+  "name": "playwright-perusteet",
   "version": "1.0.0",
   "description": "Tämä on minikurssi Playwright-työkalun opiskelua varten.",
   "main": "index.js",
